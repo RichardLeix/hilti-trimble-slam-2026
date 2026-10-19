@@ -1,0 +1,5 @@
+%YAML:1.0
+# Refresh immediately on new verified loops; otherwise grow the archived graph.
+minimum_keyframe_growth: 30
+# Only live output may interpolate T_gw. Exact graph history is always retained.
+live_smoothing_seconds: 0.0

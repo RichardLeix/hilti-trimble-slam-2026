@@ -1,0 +1,12 @@
+%YAML:1.0
+# Validated production startup policy. The initializer itself, including every
+# equation and acceptance threshold, is unchanged.
+startup_window_frames: 60
+startup_retry_enabled: 1
+startup_retry_stride_frames: 10
+# Zero-based camera frame index; includes the validated late window 300-359.
+startup_maximum_end_frame: 359
+# If initialization starts after the challenge boundary, reconstruct buffered
+# states only from calibrated IMU propagation and accepted metric landmarks.
+startup_backfill_enabled: 1
+startup_backfill_start_seconds: 5.0

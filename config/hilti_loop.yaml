@@ -1,0 +1,18 @@
+%YAML:1.0
+# Supply a 32-byte ORB FBOW vocabulary explicitly to the runtime entrypoint.
+# The official Hilti config/hilti_stella_vslam/orb_vocab.fbow is compatible.
+vocabulary_path: ""
+minimum_keyframe_separation: 90
+minimum_time_separation_s: 15.0
+maximum_candidates: 5
+minimum_score: 0.035
+orb_features_per_camera: 1000
+max_hamming_distance: 64
+descriptor_ratio: 0.8
+minimum_inliers: 24
+minimum_inlier_ratio: 0.3
+inlier_threshold_rad: 0.008
+maximum_rms_rad: 0.004
+maximum_pose_condition: 1.0e8
+ransac_iterations: 600
+ransac_confidence: 0.999

@@ -1,0 +1,19 @@
+{
+  "normal_source_states": 12,
+  "retained_states": 11,
+  "geometry_horizon_seconds_approx": 1.668333,
+  "active_landmark_cap": 240,
+  "camera_information": [
+    1.0,
+    0.5
+  ],
+  "landmark_quality_weighting": "C_quality",
+  "landmark_admission": "B3_native_camera1_floor_with_protected_prior",
+  "imu": "hilti_imu.yaml",
+  "camera": "hilti_eucm.yaml",
+  "loop": "hilti_loop.yaml",
+  "pose_graph": "hilti_pose_graph.yaml",
+  "global": "hilti_global.yaml",
+  "backend": "hilti_backend.yaml",
+  "startup": "hilti_startup.yaml"
+}

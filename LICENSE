@@ -1,0 +1,20 @@
+Licensing notice
+
+This distribution retains the licenses and authorship notices present in its
+source components. No new blanket license grant is inferred for files that
+lack an explicit grant.
+
+* src/frame.cpp, src/map.cpp, and src/mappoint.cpp retain GPL-3.0-or-later
+  headers. The full GPL version 3 text is in LICENSES/GPL-3.0.txt.
+* SLAM-book-derived framework code retains Xiang Gao's authorship notices.
+  The upstream MIT notice is in LICENSES/slambook2-MIT.txt. The explicit
+  GPL notices above have not been removed or overridden.
+* third_party/fbow retains its MIT license and source provenance.
+* cmake/FindGlog.cmake retains its Google/Ceres BSD-style license in full.
+* Official calibration-derived content is subject to the dataset authors'
+  terms; see LICENSES/Hilti-calibration.txt.
+
+See docs/LICENSING.md for the file-level redistribution uncertainties.
+A maintainer must confirm the license grant for unmarked H2 code and resolve
+legacy notice ambiguity before representing this as a fully cleared public
+open-source release. This notice does not replace third-party licenses.

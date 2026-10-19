@@ -1,0 +1,9 @@
+%YAML:1.0
+# Frozen H2 backend: source 12 / retained 11; quarantine enabled.
+visual_model: rolling_shutter
+timestamp_reference: center_row
+physical_reference_verified: 0
+readout_direction: top_to_bottom
+readout_seconds: 0.03105122184753418
+image_height: 1440
+experimental_landmark_quarantine: B

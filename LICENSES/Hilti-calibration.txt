@@ -1,0 +1,23 @@
+Hilti-Trimble-Oxford dataset calibration attribution
+
+Source: Hilti-Research/hilti-trimble-slam-challenge-2026,
+config/hilti_openvins/kalibr_imucam_chain.yaml (EUCM section), IMU calibration,
+and the official mask references. Calibration provenance is retained in config/.
+
+The official dataset repository states:
+The dataset and benchmark related to the Hilti x Trimble SLAM Challenge 2026
+are published under the Creative Commons Attribution NonCommercial ShareAlike
+3.0 License. This means that you must attribute the work in the manner specified
+by the authors, you may not use this work for commercial purposes and if you
+alter, transform, or build upon this work, you may distribute the resulting
+work only under the same license.
+
+License: https://creativecommons.org/licenses/by-nc-sa/3.0/
+Legal code: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+Dataset: https://hilti-challenge.com/dataset-2026
+Authors: Samuele Centanni, Yuhao Zhang, Yifu Tao, Julien Kindle, Frank Neuhaus,
+Tilman Koß, Aryaman Patel, Michael Helmberger, Emilia Szymańska, Torben Gräber,
+and Maurice Fallon. Hilti, Trimble, and the University of Oxford.
+
+The dataset, ground truth, masks, and vocabulary are not included here.
+Download required assets from their authors and comply with their terms.

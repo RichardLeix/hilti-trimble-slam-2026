@@ -1,0 +1,42 @@
+%YAML:1.0
+# Original EUCM calibration from Hilti-Research/hilti-trimble-slam-challenge-2026.
+# Source: config/hilti_openvins/kalibr_imucam_chain.yaml, commented EUCM section.
+# Commit: e0c9277e20ab6d856703d3749d52b3a0f9b43926
+# Source SHA256: 0cf7880d137fccf85eaeb1bdbaf1ccb180752da386c65d70ce722a73a815c4b1
+# EUCM section activated verbatim; mask filenames added for the unchanged masks.
+# Intrinsics: [alpha, beta, fx, fy, cx, cy]; resolution: [width, height].
+# T_cam_imu maps IMU-reference points into the camera coordinate frame.
+# OpenVINS mask convention: zero valid, nonzero invalid.
+# Time offsets retained as metadata; no timestamp adjustment is performed.
+
+cam0:
+  mask: hilti_mask_cam0.png
+  T_cam_imu:
+    - [0.017214474772216132, -0.0008034642120502422, -0.9998514971252359, 0.020670851120764513]
+    - [0.9998263174555488, -0.007128426214556394, 0.017219769539067287, 0.015539085669546057]
+    - [-0.007141203091335369, -0.9999742696614562, 0.0006806125511055194, -0.01575188948566258]
+    - [0.0, 0.0, 0.0, 1.0]
+  cam_overlaps: []
+  camera_model: eucm
+  distortion_coeffs: []
+  distortion_model: none
+  intrinsics: [0.6899954350657926, 0.8911981210457725, 465.2979536302252, 465.3194431883040, 730.0455886686005, 720.14270076712060]
+  resolution: [1472, 1440]
+  rostopic: /cam0/image_raw
+  timeshift_cam_imu: -0.0065711235601010635
+
+cam1:
+  mask: hilti_mask_cam1.png
+  T_cam_imu:
+    - [0.001140211562142969, 0.008293988154741392, 0.999964954224936475, -0.019723393561283168]
+    - [0.999968061816069342, -0.007919642587677703, -0.001074527381689296, 0.014881385860452550]
+    - [0.007910452920289310, 0.999934242348850422, -0.008302753327868798, -0.024122617432500697]
+    - [0.0, 0.0, 0.0, 1.0]
+  cam_overlaps: []
+  camera_model: eucm
+  distortion_coeffs: []
+  distortion_model: none
+  intrinsics: [0.689023978287534, 0.8955908238645756, 465.43282715729856, 465.46851871720855, 733.4363969750630, 718.74087142499763]
+  resolution: [1472, 1440]
+  rostopic: /cam1/image_raw
+  timeshift_cam_imu: -0.0065666869131007294
